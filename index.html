@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<button id="restart">Restart Game</button>
+		<form id="set-names" onsubmit="setPlayerNames(event)">
+			<label for="p1-name">Player "X" Name</label>
+			<input id="p1-name" type="text">
+			<label for="p2-name">Player "O" Name</label>
+			<input id="p2-name" type="text">
+			<button type="submit">Finalize</button>
+		</form>
+		<div id="grid"></div>
+		<div id="result"></div>
+	</body>
+</html>
